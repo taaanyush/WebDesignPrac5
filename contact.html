@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+<body>
+    <header class="header"><img class="logo" src="./assets/img/dino.png"> </header>
+    <div class="container">
+   
+    <nav class="left">
+    <h3>Left heading</h3>
+    <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h3>Left heading</h3>
+    <ul>
+    <li><a href="media.html">Media</a></li>
+    <li><a href="slider.html">Slider</a></li>
+    <li><a href="table.html">Table</a></li>
+    </ul>
+    </nav>
+    <main class="center">
+    
+        <h1>Contact</h1>
+    
+    <div class="forms">
+    <div class="user">
+    <form>
+        <h3>User details</h3>
+        <div>
+        <label>Full name* </label>
+            <br>
+            <input type="text" name="name" id="fullname">
+        </div>
+        <div>
+            <label>Your birthday* </label>
+            <br>
+            <input type="date"  id= birthday name="birthday" placeholder="Your birthday">
+        </div>
+        <div>
+            <label>Gender</label>
+            <select id="gender" name="gender" aria-placeholder="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+            <label>Country</label>
+            <br>
+            <select id="country" name="country">
+                <option value="Ukraine">Ukraine</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+            <input type="number" name="phone" id="phone" placeholder="Phone*">
+        <div>
+            <label>Bio</label>
+            <br>
+            <input type="text" id="bio" name="bio">
+            <div>
+                <label>Tell us about yourself </label>
+            </div>
+        </div>
+        <input type="submit" value="Submit" class="btn">
+        </div>
+    </form>
+   
+  <div class="account">
+
+        <form>
+        <h3>Account details</h3>
+            <input type="text" name="name" id="name" placeholder="Username*"> 
+      
+            <input type="email" name="email" class="text-form" id="email" placeholder="Email"> 
+        
+            <input type="password" name="password" id="password" placeholder="Password*"> 
+        
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password*"> 
+        <div class="checkbox">
+        <p><input type="checkbox" name="accept"  value="x"> I accept terms and conditions</p> 
+        </div>
+            <input type="submit" value="Submit" class="btn">
+    </form>
+
+    </div>
+</div>    
+        </main>
+    <div class="right">
+    <h3>Right heading</h3>
+    <ul class="home">
+        <li><a class="home" href="index.html">Home</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="footer-wrapper">
+    <footer class="footer"><img class="logo" src="./assets/img/dino.png"></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+<body>
+    <header class="header"><img class="logo" src="./assets/img/dino.png"> </header>
+    <div class="container"> 
+         <nav class="left column">
+    <h3>Left heading</h3>
+    <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h3>Left heading</h3>
+    <ul>
+    <li><a href="media.html">Media</a></li>
+    <li><a href="slider.html">Slider</a></li>
+    <li><a href="table.html">Table</a></li>
+    </ul>
+    </nav>
+    <main class="center column">
+    <h1>Flowers</h1>
+    <div class="sim-slider">
+        <ul class="sim-slider-list">
+          <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+          <li class="sim-slider-element"><img src="./public/images/flowers1.jpg" alt="0"></li>
+          <li class="sim-slider-element"><img src="./public/images/flowers2.jpg" alt="1"></li>
+          <li class="sim-slider-element"><img src="./public/images/flowers3.jpg" alt="2"></li>
+          <li class="sim-slider-element"><img src="./public/images/flowers4.jpg" alt="3"></li>
+          <li class="sim-slider-element"><img src="./public/images/flowers5.jpg" alt="4"></li>
+          <li class="sim-slider-element"><img src="./public/images/flowers6.jpg" alt="5"></li>
+        </ul>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
+      </div>
+    </main>
+  
+    <div class="right column">
+    <h3>Right heading</h3>
+    <ul class="home">
+        <li > <a class="home" href="index.html">Home</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="footer-wrapper">
+    <footer class="footer"><img class="logo" src="./assets/img/dino.png"></footer>
+    </div>
+    <script src="./assets/js/slider.js"></script>
+<!-- вызов слайдера -->
+<script>new Sim()</script>
+</body>
+</html>
